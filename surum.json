@@ -1,0 +1,13 @@
+{
+  "version": "1.7.0",
+  "commit": "main",
+  "notes": [
+    "Auphonic stüdyo temizliği: kayıt önce Auphonic'e gönderilip nefes, yankı ve gürültüden stüdyo kalitesinde arındırılır, ardından Ses Kurgu adımları çalışır. Kendine ait kehribar renkli kartı ve adım rozeti var.",
+    "Auphonic bağlantısı Ayarlar'da: API anahtarı yalnızca bu bilgisayarda saklanır, kalan kredi gösterilir, Auphonic'teki kendi hazır ayarını seçebilirsin. Aynı kayıt ikinci kez gönderilmez, kredi boşa gitmez.",
+    "Otomatik güncelleme: yeni sürüm çıkınca bildirim gelir, arka planda indirilir ve yeniden başlatınca ya da kapatınca kurulur.",
+    "Ses Kurgu artık Windows açılırken kendiliğinden açılmıyor. İstersen Ayarlar'dan açabilirsin.",
+    "Kapatma penceresi yenilendi: geniş, renkli düğmeler, Kapat önceden seçili. Ayarlar'dan bu onay kapatılabilir.",
+    "Ayarlar düğmesi sol alta taşındı. Yeni ayarlar: işlem bitince Windows bildirimi ve kayıt klasörünü açma, güncellemeler, hakkında."
+  ],
+  "files": {}
+}
