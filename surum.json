@@ -1,17 +1,19 @@
 {
-  "version": "1.7.2.6",
-  "commit": "beb590aaebe805bb9f578156aa9b52d070676e62",
+  "version": "1.7.2.7",
+  "commit": "b4c624b45e6aeb65518333dcdc3e58c330498423",
   "notes": [
     "Ayarlar düğmesi yeniden sol menünün üstünde, Temizle ve Gözden geçir'in altında.",
     "Ayarlar sayfası daha ferah: kartlar arasında ve içinde biraz daha boşluk.",
     "Kapatma penceresi biraz daraltıldı.",
     "Güncelleme çıkınca önce indirmek isteyip istemediğin sorulur; indirince Şimdi güncelle ya da Daha sonra seçebilirsin.",
-    "Sol menüde simgeler büyüdü; altta model, ekran kartı, Auphonic ve sürümü gösteren bir durum kartı var."
+    "Sol menüde simgeler büyüdü; altta model, ekran kartı, Auphonic ve sürümü gösteren bir durum kartı var.",
+    "Auphonic düzeltmesi: adında boşluk olan kayıtlar indirilemiyordu. Ayrıca Auphonic'te bitmiş bir temizlik varsa kredi harcamadan oradan indirilir."
   ],
   "files": {
     "seskurgu/gui.py": "11b3aa5c7e67c34a41b12054eea9cf4729205e11226e8062d1924ceb4d9612ce",
-    "seskurgu/__init__.py": "80a2e6c5eb8cda4c478fb2e18b208f3d56ab58c44489507eb0bd5297474b1352",
-    "seskurgu/updater.py": "1caf28b67af21012ec7062fba83c4bbea5f4568409c148bee0afc0186262411e"
+    "seskurgu/__init__.py": "48312621e5143288f00577933d9b39f8f56112017ae1c6b2ccb92201e5a4ad7e",
+    "seskurgu/updater.py": "1caf28b67af21012ec7062fba83c4bbea5f4568409c148bee0afc0186262411e",
+    "seskurgu/auphonic.py": "e2dcd7d1b60d7f1f2488d3f55dfb00ad4d65457e9c7a8592891b1ddbe5cd5162"
   },
   "patches": {
     "seskurgu/gui.py": [
@@ -86,6 +88,11 @@
         "from": "e0f3d824ae5de261b0f5baafb8db08173f85c4b32dcef6f6e6cd2ffe8b08b56e",
         "to": "80a2e6c5eb8cda4c478fb2e18b208f3d56ab58c44489507eb0bd5297474b1352",
         "url": "yamalar/1.7.2.6/__init__.py.json"
+      },
+      {
+        "from": "80a2e6c5eb8cda4c478fb2e18b208f3d56ab58c44489507eb0bd5297474b1352",
+        "to": "48312621e5143288f00577933d9b39f8f56112017ae1c6b2ccb92201e5a4ad7e",
+        "url": "yamalar/1.7.2.7/__init__.py.json"
       }
     ],
     "seskurgu/updater.py": [
@@ -93,6 +100,13 @@
         "from": "804ba3aeb47b6d53af6ca22a10c5203ffecafc7936439a30a7ea3cc7f222a101",
         "to": "1caf28b67af21012ec7062fba83c4bbea5f4568409c148bee0afc0186262411e",
         "url": "yamalar/1.7.2.1/updater.py.json"
+      }
+    ],
+    "seskurgu/auphonic.py": [
+      {
+        "from": "819f845fdea1003f9918ad1f2e68f10ff27f597879acfe69eef2ac573514335b",
+        "to": "e2dcd7d1b60d7f1f2488d3f55dfb00ad4d65457e9c7a8592891b1ddbe5cd5162",
+        "url": "yamalar/1.7.2.7/auphonic.py.json"
       }
     ]
   }
