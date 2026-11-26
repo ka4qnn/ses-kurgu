@@ -1,20 +1,27 @@
 {
-  "version": "1.7.2",
-  "commit": "be3555536b78f90c8ad201132c9d9aea35b8e56d",
+  "version": "1.7.2.1",
+  "commit": "58c47a37ad7a4c7606e65d0c1f8ac59d6c4891e1",
   "notes": [
     "Ayarlar düğmesi yeniden sol menünün üstünde, Temizle ve Gözden geçir'in altında.",
-    "Ayarlar sayfası daha ferah: kartlar arasında ve içinde biraz daha boşluk."
+    "Ayarlar sayfası daha ferah: kartlar arasında ve içinde biraz daha boşluk.",
+    "Kapatma penceresi biraz daraltıldı."
   ],
   "files": {
-    "seskurgu/gui.py": "c098555e2781805fb02e529d0514f084995a4ee811105b5cfd1b6110675573f4",
-    "seskurgu/__init__.py": "6d7ec6bf0acd8918c1f50cc2467847f02b269ef4f607e036dafbf421cd065f9b"
+    "seskurgu/gui.py": "07ec54d05d39c81118e7a2e52fc5da8d4bdc43d150a44a566c9714c6359e0a85",
+    "seskurgu/__init__.py": "e004f34afc1f829d2ec8ac34984c1864339cd3d843da09da96aa4eaac6dbac4b",
+    "seskurgu/updater.py": "1caf28b67af21012ec7062fba83c4bbea5f4568409c148bee0afc0186262411e"
   },
   "patches": {
     "seskurgu/gui.py": [
-      {"from": "64c94f7e041ed8d8afe9bdd07f6a8adaff2bb7b3f8fe8abfbb6fb5c3880e517b", "to": "c098555e2781805fb02e529d0514f084995a4ee811105b5cfd1b6110675573f4", "url": "yamalar/1.7.2/gui.py.json"}
+      {"from": "64c94f7e041ed8d8afe9bdd07f6a8adaff2bb7b3f8fe8abfbb6fb5c3880e517b", "to": "c098555e2781805fb02e529d0514f084995a4ee811105b5cfd1b6110675573f4", "url": "yamalar/1.7.2/gui.py.json"},
+      {"from": "c098555e2781805fb02e529d0514f084995a4ee811105b5cfd1b6110675573f4", "to": "07ec54d05d39c81118e7a2e52fc5da8d4bdc43d150a44a566c9714c6359e0a85", "url": "yamalar/1.7.2.1/gui.py.json"}
     ],
     "seskurgu/__init__.py": [
-      {"from": "7b95fa580db816357983fdaf2f99589da2421d6dd14779a0a6bb3d4c04def386", "to": "6d7ec6bf0acd8918c1f50cc2467847f02b269ef4f607e036dafbf421cd065f9b", "url": "yamalar/1.7.2/__init__.py.json"}
+      {"from": "7b95fa580db816357983fdaf2f99589da2421d6dd14779a0a6bb3d4c04def386", "to": "6d7ec6bf0acd8918c1f50cc2467847f02b269ef4f607e036dafbf421cd065f9b", "url": "yamalar/1.7.2/__init__.py.json"},
+      {"from": "6d7ec6bf0acd8918c1f50cc2467847f02b269ef4f607e036dafbf421cd065f9b", "to": "e004f34afc1f829d2ec8ac34984c1864339cd3d843da09da96aa4eaac6dbac4b", "url": "yamalar/1.7.2.1/__init__.py.json"}
+    ],
+    "seskurgu/updater.py": [
+      {"from": "804ba3aeb47b6d53af6ca22a10c5203ffecafc7936439a30a7ea3cc7f222a101", "to": "1caf28b67af21012ec7062fba83c4bbea5f4568409c148bee0afc0186262411e", "url": "yamalar/1.7.2.1/updater.py.json"}
     ]
   }
 }
