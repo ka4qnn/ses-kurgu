@@ -1,6 +1,6 @@
 {
-  "version": "1.7.2.5",
-  "commit": "f94abe7ce77c3380400a02e2d06e2dd10cea836a",
+  "version": "1.7.2.6",
+  "commit": "beb590aaebe805bb9f578156aa9b52d070676e62",
   "notes": [
     "Ayarlar düğmesi yeniden sol menünün üstünde, Temizle ve Gözden geçir'in altında.",
     "Ayarlar sayfası daha ferah: kartlar arasında ve içinde biraz daha boşluk.",
@@ -9,8 +9,8 @@
     "Sol menüde simgeler büyüdü; altta model, ekran kartı, Auphonic ve sürümü gösteren bir durum kartı var."
   ],
   "files": {
-    "seskurgu/gui.py": "ac39549a66a29c5700107981a354b7e1ba6847952e6e4005db5934aefb2afc87",
-    "seskurgu/__init__.py": "e0f3d824ae5de261b0f5baafb8db08173f85c4b32dcef6f6e6cd2ffe8b08b56e",
+    "seskurgu/gui.py": "11b3aa5c7e67c34a41b12054eea9cf4729205e11226e8062d1924ceb4d9612ce",
+    "seskurgu/__init__.py": "80a2e6c5eb8cda4c478fb2e18b208f3d56ab58c44489507eb0bd5297474b1352",
     "seskurgu/updater.py": "1caf28b67af21012ec7062fba83c4bbea5f4568409c148bee0afc0186262411e"
   },
   "patches": {
@@ -44,6 +44,11 @@
         "from": "c5b48a296287fbe70cb74848b497fde6c462149e5520eb98d3fe26d9969c932e",
         "to": "ac39549a66a29c5700107981a354b7e1ba6847952e6e4005db5934aefb2afc87",
         "url": "yamalar/1.7.2.5/gui.py.json"
+      },
+      {
+        "from": "ac39549a66a29c5700107981a354b7e1ba6847952e6e4005db5934aefb2afc87",
+        "to": "11b3aa5c7e67c34a41b12054eea9cf4729205e11226e8062d1924ceb4d9612ce",
+        "url": "yamalar/1.7.2.6/gui.py.json"
       }
     ],
     "seskurgu/__init__.py": [
@@ -76,6 +81,11 @@
         "from": "ae746edf798c5d25ee4a26765ff0412a4dbce95cc5986fb41a177e1521bc0732",
         "to": "e0f3d824ae5de261b0f5baafb8db08173f85c4b32dcef6f6e6cd2ffe8b08b56e",
         "url": "yamalar/1.7.2.5/__init__.py.json"
+      },
+      {
+        "from": "e0f3d824ae5de261b0f5baafb8db08173f85c4b32dcef6f6e6cd2ffe8b08b56e",
+        "to": "80a2e6c5eb8cda4c478fb2e18b208f3d56ab58c44489507eb0bd5297474b1352",
+        "url": "yamalar/1.7.2.6/__init__.py.json"
       }
     ],
     "seskurgu/updater.py": [
