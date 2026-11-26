@@ -1,13 +1,20 @@
 {
-  "version": "1.7.0",
-  "commit": "main",
+  "version": "1.7.2",
+  "commit": "be3555536b78f90c8ad201132c9d9aea35b8e56d",
   "notes": [
-    "Auphonic stüdyo temizliği: kayıt önce Auphonic'e gönderilip nefes, yankı ve gürültüden stüdyo kalitesinde arındırılır, ardından Ses Kurgu adımları çalışır. Kendine ait kehribar renkli kartı ve adım rozeti var.",
-    "Auphonic bağlantısı Ayarlar'da: API anahtarı yalnızca bu bilgisayarda saklanır, kalan kredi gösterilir, Auphonic'teki kendi hazır ayarını seçebilirsin. Aynı kayıt ikinci kez gönderilmez, kredi boşa gitmez.",
-    "Otomatik güncelleme: yeni sürüm çıkınca bildirim gelir, arka planda indirilir ve yeniden başlatınca ya da kapatınca kurulur.",
-    "Ses Kurgu artık Windows açılırken kendiliğinden açılmıyor. İstersen Ayarlar'dan açabilirsin.",
-    "Kapatma penceresi yenilendi: geniş, renkli düğmeler, Kapat önceden seçili. Ayarlar'dan bu onay kapatılabilir.",
-    "Ayarlar düğmesi sol alta taşındı. Yeni ayarlar: işlem bitince Windows bildirimi ve kayıt klasörünü açma, güncellemeler, hakkında."
+    "Ayarlar düğmesi yeniden sol menünün üstünde, Temizle ve Gözden geçir'in altında.",
+    "Ayarlar sayfası daha ferah: kartlar arasında ve içinde biraz daha boşluk."
   ],
-  "files": {}
+  "files": {
+    "seskurgu/gui.py": "c098555e2781805fb02e529d0514f084995a4ee811105b5cfd1b6110675573f4",
+    "seskurgu/__init__.py": "6d7ec6bf0acd8918c1f50cc2467847f02b269ef4f607e036dafbf421cd065f9b"
+  },
+  "patches": {
+    "seskurgu/gui.py": [
+      {"from": "64c94f7e041ed8d8afe9bdd07f6a8adaff2bb7b3f8fe8abfbb6fb5c3880e517b", "to": "c098555e2781805fb02e529d0514f084995a4ee811105b5cfd1b6110675573f4", "url": "yamalar/1.7.2/gui.py.json"}
+    ],
+    "seskurgu/__init__.py": [
+      {"from": "7b95fa580db816357983fdaf2f99589da2421d6dd14779a0a6bb3d4c04def386", "to": "6d7ec6bf0acd8918c1f50cc2467847f02b269ef4f607e036dafbf421cd065f9b", "url": "yamalar/1.7.2/__init__.py.json"}
+    ]
+  }
 }
