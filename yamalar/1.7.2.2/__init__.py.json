@@ -1,0 +1,1 @@
+{"from": "e004f34afc1f829d2ec8ac34984c1864339cd3d843da09da96aa4eaac6dbac4b", "to": "09b06bcf1ac0b490eaee8706e98e7fa437ec4950d9a826a16ab3f111d4d38370", "ops": [[4, 5, ["__version__ = \"1.7.2.2\"\n"]], [11, 11, ["        \"Güncelleme çıkınca önce indirmek isteyip istemediğin sorulur; indirince Şimdi güncelle ya da Daha sonra seçebilirsin.\",\n"]]]}
