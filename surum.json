@@ -1,15 +1,16 @@
 {
-  "version": "1.7.2.2",
-  "commit": "563f77e0c63cab83512c2d13eae85701ec2ea48f",
+  "version": "1.7.2.3",
+  "commit": "e82e02c1972bae79df87259836f7ab20e1578834",
   "notes": [
     "Ayarlar düğmesi yeniden sol menünün üstünde, Temizle ve Gözden geçir'in altında.",
     "Ayarlar sayfası daha ferah: kartlar arasında ve içinde biraz daha boşluk.",
     "Kapatma penceresi biraz daraltıldı.",
-    "Güncelleme çıkınca önce indirmek isteyip istemediğin sorulur; indirince Şimdi güncelle ya da Daha sonra seçebilirsin."
+    "Güncelleme çıkınca önce indirmek isteyip istemediğin sorulur; indirince Şimdi güncelle ya da Daha sonra seçebilirsin.",
+    "Sol menüde simgeler büyüdü; alttaki panel model, ekran kartı, Auphonic ve güncelleme durumunu gösteriyor."
   ],
   "files": {
-    "seskurgu/gui.py": "31b096252d9836dcea4fc41d8871325e8055bf84b646daa5f007d044172b64e2",
-    "seskurgu/__init__.py": "09b06bcf1ac0b490eaee8706e98e7fa437ec4950d9a826a16ab3f111d4d38370",
+    "seskurgu/gui.py": "6e7e1a6f41b88c269336a0570f75663c5468e8a19e3a76033b3185d39d886fe1",
+    "seskurgu/__init__.py": "d4c951ee0044cf5c74a6559516b32c6cf5547ba230dda81eb8116085932c6eb1",
     "seskurgu/updater.py": "1caf28b67af21012ec7062fba83c4bbea5f4568409c148bee0afc0186262411e"
   },
   "patches": {
@@ -28,6 +29,11 @@
         "from": "07ec54d05d39c81118e7a2e52fc5da8d4bdc43d150a44a566c9714c6359e0a85",
         "to": "31b096252d9836dcea4fc41d8871325e8055bf84b646daa5f007d044172b64e2",
         "url": "yamalar/1.7.2.2/gui.py.json"
+      },
+      {
+        "from": "31b096252d9836dcea4fc41d8871325e8055bf84b646daa5f007d044172b64e2",
+        "to": "6e7e1a6f41b88c269336a0570f75663c5468e8a19e3a76033b3185d39d886fe1",
+        "url": "yamalar/1.7.2.3/gui.py.json"
       }
     ],
     "seskurgu/__init__.py": [
@@ -45,6 +51,11 @@
         "from": "e004f34afc1f829d2ec8ac34984c1864339cd3d843da09da96aa4eaac6dbac4b",
         "to": "09b06bcf1ac0b490eaee8706e98e7fa437ec4950d9a826a16ab3f111d4d38370",
         "url": "yamalar/1.7.2.2/__init__.py.json"
+      },
+      {
+        "from": "09b06bcf1ac0b490eaee8706e98e7fa437ec4950d9a826a16ab3f111d4d38370",
+        "to": "d4c951ee0044cf5c74a6559516b32c6cf5547ba230dda81eb8116085932c6eb1",
+        "url": "yamalar/1.7.2.3/__init__.py.json"
       }
     ],
     "seskurgu/updater.py": [
